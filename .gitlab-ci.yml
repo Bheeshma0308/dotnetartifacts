@@ -1,0 +1,12 @@
+default:
+    tags:
+      - angular
+stages:
+    - build
+build-stage:
+    stage: build
+    script:
+        # - cd dotnet
+        - dotnet --version
+        - dotnet restore
+        - dotnet build
