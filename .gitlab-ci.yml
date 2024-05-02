@@ -11,3 +11,6 @@ build-stage:
         - dotnet --version
         - dotnet restore
         - dotnet build
+    artifacts:
+        paths:
+            - "~/builds"
