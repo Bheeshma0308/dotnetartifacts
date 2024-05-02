@@ -13,4 +13,4 @@ build-stage:
         - dotnet build
     artifacts:
         paths:
-            - "~/builds"
+            - "/home/gitlab-runner/builds/x6n6Q45fW/0/devops3660211/eq_demo"
