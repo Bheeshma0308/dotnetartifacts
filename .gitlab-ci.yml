@@ -1,6 +1,7 @@
 default:
     tags:
       - angular
+      - demo
 stages:
     - build
 build-stage:
